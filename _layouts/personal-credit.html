@@ -70,9 +70,11 @@
 		<!-- TABLE #01 -->
 		<div class="pricing_tab four columns">
 		    <div class="top">
+              <!--
 		        <div style="position: relative; display: inline-block; margin: 0 auto; font-size:16px;">
 		            <div>$250</div>
 		        </div>
+			-->
 		    </div>
 
 		    <div class="title">
@@ -92,9 +94,11 @@
 		<!-- TABLE #02 -->
 		<div class="pricing_tab four columns">
 		    <div class="top">
+              <!--
 		        <div style="position: relative; display: inline-block; margin: 0 auto; font-size:16px;">
 		            <div>$500</div>
 		        </div>
+			-->
 		    </div>
 
 		    <div class="title">
@@ -115,9 +119,11 @@
 		<!-- TABLE #03 -->
 		<div class="pricing_tab highlight four columns">
 		    <div class="top">
+              <!--
 		    	<div style="position: relative; display: inline-block; margin: 0 auto; font-size:16px;">
 		            <div>$1000</div>
 		        </div>
+			-->
 		    </div>
 
 		    <div class="title" style="background-color: rgb(122, 179, 23);">
@@ -138,9 +144,11 @@
 		<!-- TABLE #04 -->
 		<div class="pricing_tab four columns">
 		    <div class="top">
-		        <div style="position: relative; display: inline-block; margin: 0 auto; font-size:16px;">
+		        <!--
+<div style="position: relative; display: inline-block; margin: 0 auto; font-size:16px;">
 		            <div>$1500</div>
 		        </div>
+-->
 		    </div>
 
 		    <div class="title">
@@ -198,13 +206,14 @@
 															<a style="-webkit-transition: all 0.4s ease-in-out; -moz-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-in-out; -ms-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;" href="/contact-us">{{ post.title }}</a>
 														</div>
 														<div style="padding-left: 15px;" class="p_exerpt no-flicker">
-															<a href="/contat us" class="small button white" style="float:right;">Sign Up</a>
+															<a href="/contact-us" class="small button white" style="float:right;">Sign Up</a>
 
 															<p style="font-size:11px;overflow-y: hidden; -webkit-transition: all 0.4s ease-in-out; -moz-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-in-out; -ms-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;">
-																Credit Line: {{ post.credit_limit }} <br />
-																Date Open: {{ post.date_open }} <br />
-																Balance: {{ post.balance }} <br />
-																<strong>Typical Fee: {{ post.price }}</strong>
+Credit Line: {{ post.credit_limit }} <br />
+Date Open: {{ post.date_open }} <br />
+Balance: {{ post.balance }} <br />
+Posting Date: {{ post.posting_date }} <br />
+<strong>Fee: {{ post.price }}</strong>
 															</p>
 
 															<div style="width: 0; height: 0; border-bottom: 15px solid white; border-left: 15px solid transparent; position: absolute; right: 0px;"></div>																
