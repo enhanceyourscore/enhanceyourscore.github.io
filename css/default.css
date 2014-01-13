@@ -1679,6 +1679,7 @@ input:focus, textarea:focus{
 	position: relative;
 	float: left;
 	width: 100%;
+  	font-size:13px;
 }
 .copys_right{
 	text-align: right;
