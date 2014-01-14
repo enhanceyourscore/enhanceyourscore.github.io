@@ -1210,7 +1210,9 @@ h2.page_title{
 }
 
 img.camera_thumb{width: 100px;}
-
+.post-thumb {
+	white-space:nowrap;
+}
 .post-thumb .mask{
 	position: absolute;
 	width: 215px;
