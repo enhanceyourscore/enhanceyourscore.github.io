@@ -1188,8 +1188,8 @@ function onColorChange(color){
 					$(this).find('.magnify_this_thumb').css('left', '-15%').css('opacity',0);
 					$(this).find('.hyperlink_this_thumb').css('left', '105%').css('opacity',0);
 					$(this).children('div').css('background','#EEE');
-					$(this).find('.p_exerpt p').css('color', '');
-					$(this).find('.p_title a').css('color', '');
+					$(this).find('.p_exerpt p').css('color', '#555');
+					$(this).find('.p_title a').css('color', '#555');
 					$(this).find('.p_title').css('border-top', '4px solid #DDD');
 				});
 				$('.post-thumb:hover > div').css('background-color', color+' !important');		
