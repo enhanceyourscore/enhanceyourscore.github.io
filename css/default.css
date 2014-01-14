@@ -1208,11 +1208,15 @@ h2.page_title{
 .slides-item.post.r{
 	margin-left: 20px;
 }
-
-img.camera_thumb{width: 100px;}
+img.camera_thumb{
+	width: 100px;
+}
 .post-thumb {
 	white-space:nowrap;
 }
+.post-thumb .p_title a {
+	font-size: 14px;
+} 
 .post-thumb .mask{
 	position: absolute;
 	width: 215px;
