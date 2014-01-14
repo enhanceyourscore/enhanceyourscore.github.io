@@ -8,9 +8,6 @@ balance: "0%"
 statement_date: 3rd
 slots_available: 1
 price: $300
-categories: 
-  - personal
-  - open
 published: true
 ---
 
