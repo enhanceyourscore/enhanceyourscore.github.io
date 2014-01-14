@@ -8,9 +8,6 @@ balance: "30%"
 statement_date: 17th
 slots_available: 5
 price: $100
-categories: 
-  - personal
-  - open
 published: true
 ---
 
