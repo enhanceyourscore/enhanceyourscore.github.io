@@ -1,6 +1,6 @@
 ---
 layout: tradeline
-card: card-bofa-business.png
+card: bankamerica-card.png
 title: BANK OF AMERICA CARD
 credit_limit: $10,000
 date_open: 2005
