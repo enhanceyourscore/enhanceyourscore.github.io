@@ -1,6 +1,6 @@
 ---
 layout: tradeline
-card: "card-amex-platinum.png"
+card: "card-platinum.png"
 title: CITI BANKCARD
 credit_limit: "$20,000"
 date_open: 2010
