@@ -1,13 +1,13 @@
 ---
 layout: tradeline
 card: "card-amex-platinum.png"
-title: American Express Platinum
-credit_limit: "$6,330"
-date_open: 2008
-balance: "30%"
-statement_date: 17th
-slots_available: 5
-price: $100
+title: CITI BANKCARD
+credit_limit: "$20,000"
+date_open: 2010
+balance: "10%"
+statement_date: 2nd
+slots_available: 8
+price: $950
 published: true
 ---
 
