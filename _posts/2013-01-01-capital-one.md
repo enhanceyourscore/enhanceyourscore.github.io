@@ -1,13 +1,13 @@
 ---
 layout: tradeline
-card: "card-capital.png"
-title: Capital One
-credit_limit: $750
-date_open: 2009
+card: "card-citi.png"
+title: CITI CARD
+credit_limit: $21,000
+date_open: 1997
 balance: "0%"
-statement_date: 28th
-slots_available: 3
-price: $200
+statement_date: 6th
+slots_available: 2
+price: $1100
 published: true
 ---
 
