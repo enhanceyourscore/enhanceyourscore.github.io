@@ -1,6 +1,6 @@
 ---
 layout: tradeline
-card: "card-bofa.png"
+card: "bankamerica-better-card.png"
 title: BANK OF AMERICA
 credit_limit: "$7,500"
 date_open: 2002
