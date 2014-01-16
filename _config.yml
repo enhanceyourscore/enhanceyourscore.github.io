@@ -1,4 +1,4 @@
-paginate: 10
-markdown: rdiscount
+paginate: 20
+markdown: redcarpet
 permalink: pretty
 pygments: true
