@@ -1,8 +1,4 @@
 --- 
 title: Thank You
-layout: default
+layout: contact-thank-you
 ---
-
-## Thank You!
-
-#### Your submission has been received. One of our credit experts will evaluate your information and contact you with recommendations.
