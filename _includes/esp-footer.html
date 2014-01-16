@@ -71,17 +71,19 @@
     </div>
     <!-- end of everything -->
     
-    <!-- GOOGLE ANALYTICS -->
 	<script type="text/javascript">
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 	
-	  //ga('create', 'UA-39948175-1', 'designarethemes.com');
-	  //ga('send', 'pageview');
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-47214997-1']);
+	_gaq.push(['_trackPageview']);
+	
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	
 	</script>
-	<!-- END OF GOOGLE ANALYTICS -->
 
     <!-- BODY TYPE: OPTIONS: full | boxed -->
     <div id="bodyLayoutType" style="display:none;">full</div>
@@ -94,15 +96,6 @@
     <!-- GENERAL COLOR TO BE APPLIED -->
     <div id="styleColor" style="display:none;">#7AB317</div>
 
-    <!-- BLOG PAGINATION RELATED OPTIONS -->
-    <div style="display:none;" id="loader-startPage">0</div>
-    <div style="display:none;" id="loader-maxPages"></div>
-    <div style="display:none;" id="loader-nextLink">http://designarethemes.com/themes/freshlookwp/page/2/</div>
-    <div style="display:none;" id="reading_option"></div>
-    <div style="display:none;" id="freshlook_no_more_posts_text">No more posts to load.</div>
-    <div style="display:none;" id="freshlook_load_more_posts_text">Load More Posts</div>
-    <div style="display:none;" id="freshlook_loading_posts_text">Loading posts...</div>
-    <div style="display:none;" id="freshlook_links_color_hover"></div>
     <!-- IMAGE LOADER -->
     <div style="display:none;" class="loadinger"><img alt="loading" src="/img/ajx_loading.gif"></div>
 </body>
