@@ -3,14 +3,27 @@
 <!--[if IE 7 ]>    <html lang="en-US" class="ie7"> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en-US" class="ie8"> <![endif]-->
 <!--[if IE 9 ]>    <html lang="en-US" class="ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-US"> <!--<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="esS"> <!--<![endif]-->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>{{ page.title }} | Aumente su Puntaje de Crédito</title>
-<meta name="description" content="Nuestra experiencia se centra en la mejora de su puntuación FICO, añadiendo que como un usuario autorizado a nuestra cartera de tarjetas de crédito de alto límite ($ 30k plus) y larga historia (10 años más).">
-<meta name="author" content="">
-<meta name="keywords" content="fico, tradelines, credit score, authorized user, enhancement, boost, credit rating, AU">
+  {% if page.meta_title %}
+    <title>{{ page.meta_title }}</title>
+  {% else %}
+    <title>{{ page.title }} | Aumente su Puntaje de Crédito</title>
+  {% endif %}
+  {% if page.meta_description %}
+    <meta name="description" content="{{ page.meta_description }}">
+  {% else %}
+    <meta name="description" content="Our expertise is in improving your FICO score by adding you as an authorized user to our portfolio of high limit credit cards ($30k plus) and lengthy history (10 years plus).">
+  {% endif %}
+  {% if page.meta_keywords %}
+    <meta name="keywords" content="{{ page.meta_keywords }}">
+  {% else %}
+    <meta name="keywords" content="fico, tradelines, credit score, authorized user, enhancement, boost, credit rating, AU">
+  {% endif %}
+
+
 <link rel="shortcut icon" href="/favicon.ico">
 
 <!--[if lt IE 9]>
