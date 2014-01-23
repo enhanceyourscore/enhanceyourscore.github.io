@@ -1,6 +1,9 @@
 ---
 title: Home
 layout: home
+meta_title: "Enhance Your Credit Score"
+meta_description: "Legal and effective FICO credit score boost by purchasing authorized user positions and piggybacking accounts to improve your credit rating."
+meta_keywords: "credit score, fico, improvement, boost, credit rating, increase, tradelines, piggybacking, authorized user"
 ---
 
 # Home Page
