@@ -1,6 +1,9 @@
 ---
 title: Business Credit
 layout: business-credit
+meta_title: "More Business Credit with Authorized Piggybacking"
+meta_description: "The types of business credit services proviced by Enhance Your Score include a business credit score improvmeent program that uses piggybacking of authorized business lines of credit to increase your rating."
+meta_keywords: "business credit, ,Dun & Bradstreet, experian, credit, score, fico, business loans"
 ---
 
 Aliquam et quam non tellus lacinia adipiscing. Vivamus commodo, sem vitae p\
