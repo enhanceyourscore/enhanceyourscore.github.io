@@ -1207,6 +1207,7 @@ function onColorChange(color){
 		
 		if($(this).parent().hasClass("termCat") || 
 		   $(this).parent().hasClass('menu-item') ||
+		   $(this).parent().hasClass('readmore') ||
 		   $(this).parent().hasClass('p_title')
 		){}
 		else{

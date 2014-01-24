@@ -241,10 +241,12 @@ header #menulava > li.current-menu-item > a, header #menulava > li.current-menu-
 	color: #7AB317;
 }
 
-.blogarchive .post .the_title a:hover, .blogarchive .post .readmore a:hover, #footer_content .widget_links li a:hover, #footer_content .widget_categories li a:hover, #secondary .widget_links li a:hover, #secondary .widget_categories li a:hover, .recentposts_listing a.the_title:hover, #footer_content .recentPostsSidebar_widget .recentposts_listing a.the_title:hover, #footer_content .recentPostsSidebar_widget .recentposts_listing a.the_title:hover, #twitter_update_list li a:hover, .acc-substitute h2.current, #tabs ul.tabs li a:hover, #tabs ul.tabs li a.current, .recentPosts .post .title_date .title a:hover, a.button.none:hover, .blogarchive .post a.readmore:hover, .widget_pages li a:hover {
+.blogarchive .post .the_title a:hover, .post a.readmore,  .blogarchive .post .readmore a:hover, #footer_content .widget_links li a:hover, #footer_content .widget_categories li a:hover, #secondary .widget_links li a:hover, #secondary .widget_categories li a:hover, .recentposts_listing a.the_title:hover, #footer_content .recentPostsSidebar_widget .recentposts_listing a.the_title:hover, #footer_content .recentPostsSidebar_widget .recentposts_listing a.the_title:hover, #twitter_update_list li a:hover, .acc-substitute h2.current, #tabs ul.tabs li a:hover, #tabs ul.tabs li a.current, .recentPosts .post .title_date .title a:hover, a.button.none:hover, .blogarchive .post a.readmore:hover, .widget_pages li a:hover {
 	color: #7AB317;
 }
-
+.post a.readmore:hover {
+	color: #6A9919
+}
 .filterby .projectCategories li a:hover, .filterby .projectCategories li.active a{
 	background: #7AB317;
 }
